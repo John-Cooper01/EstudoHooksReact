@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./theme.css";
+import App from "./App";
+import ExemploUseState from "./pages/useState";
+import ExemploUseEffect from "./pages/useEffect";
+import ExemploUseRef from "./pages/useRef";
+import ExemploUseMemouseCallBack from "./pages/useMemouseCallback";
+import ExemploUseReducer from "./pages/useReducer";
+import ExemploCustomHooks from "./pages/CustomHooks";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ExemploUseState />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
