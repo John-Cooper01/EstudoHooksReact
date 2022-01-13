@@ -1,7 +1,4 @@
-# Projeto de Estudo dos Hooks do React JS
 <h1 align="center">Estudo dos Hooks do React JS</h1>
-
-## Available Scripts
 
 ## Usage
 
